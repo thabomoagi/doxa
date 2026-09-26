@@ -1,4 +1,0 @@
-- Write clean, self-documenting code.
-- NEVER include obvious, redundant, or explanatory comments (e.g., avoid comments like "# SQLAlchemy connection string" or explaining basic syntax).
-- Omit docstrings for straightforward internal functions and classes unless required for public API documentation.
-- Keep all generated code concise and free of conversational filler or unnecessary line clutter.

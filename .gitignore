@@ -26,3 +26,9 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+# AI assistant config
+.clinerules
+.cursorrules
+.windsurfrules
+CLAUDE.md
