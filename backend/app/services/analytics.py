@@ -98,7 +98,7 @@ async def get_easiest_questions(db: AsyncSession, limit: int = 5) -> list:
 
 
 async def get_most_missed_questions(db: AsyncSession, limit: int = 5) -> list:
-    incorrect_case = func.sum(case((AttemptAnswer.is_correct == False, 1), else_=0))
+    incorrect_case = func.sum(case((AttemptAnswer.is_correct.is_(False), 1), else_=0))
     stmt = (
         select(
             Question.id,
